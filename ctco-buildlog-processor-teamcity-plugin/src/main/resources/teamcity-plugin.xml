@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>C.T.Co SCM TeamCity Buildlog Processor Plugin</name>
+    <display-name>C.T.Co SCM TeamCity Buildlog Processor Plugin</display-name>
+    <version>${project.version}</version>
+    <description>Parse buildlog messages by regex format(default - "http.*://.*:.*@.*") and replace it with "*****".</description>
+
+    <vendor>
+      <name>C.T.Co</name>
+      <url>https://ctco.lv</url>
+    </vendor>
+  </info>
+</teamcity-plugin>
