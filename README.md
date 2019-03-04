@@ -17,4 +17,10 @@
 
 To Build and Deploy artifact to remote repository([docs](https://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html)):
 
-mvn clean package deploy:deploy -DaltDeploymentRepository=serverId::default::https://hostname/repository
+**Note**: Since maven-deploy-plugin version 2.8:
+
+**SNAPSHOTS:**  
+mvn clean package deploy:deploy -DaltSnapshotDeploymentRepository=serverId::default::https://hostname/repository
+
+**RELEASES:**  
+mvn clean package deploy:deploy -DaltReleaseDeploymentRepository=serverId::default::https://hostname/repository
